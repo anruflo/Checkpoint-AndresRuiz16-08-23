@@ -1,0 +1,26 @@
+  183  pwd
+  184  git clone https://github.com/anruflo/Checkpoint-AndresRuiz16-08-23.git
+  185  cd Checkpoint-AndresRuiz16-08-23
+  186  touch main.js index.html
+  187  git add .
+  188  git commit -m "01 Andres Ruiz"
+  189  git push origin main
+  190  git branch feature
+  191  git checkout feature
+  192  mkdir Hardware Software SeguridadInformatica
+  193  cd Hardware
+  194  touch resumen.txt
+  195  cd ..
+  196  cd Software
+  197  touch resumen.txt
+  198  cd ..
+  199  cd SeguridadInformatica
+  200  touch resumen.txt
+  201  cd ..
+  202  git add .
+  203  git commit -m "02 Andres Ruiz"
+  204  git push origin feature
+  205  git checkout main
+  206  mv main.js resumenHardware.txt
+  207  mv index.html resumenSoftware.txt
+  208  touch comandos.txt
